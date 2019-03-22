@@ -238,7 +238,9 @@ a:focus {
 
 /* reverse horizontal row modifier */
 
-.o-layout--row-reverse {}
+.o-layout--row-reverse {
+    flex-direction: row-reverse;
+}
 
 /* Horizontal alignment modifiers*/
 
@@ -264,13 +266,21 @@ a:focus {
 
 /* Vertical item alignment modifiers */
 
-.o-layout--align-start {}
+.o-layout--align-start {
+    align-items: flex-start;
+}
 
-.o-layout--align-end {}
+.o-layout--align-end {
+    align-items: flex-end;
+}
 
-.o-layout--align-center {}
+.o-layout--align-center {
+    align-items: center;
+}
 
-.o-layout--align-baseline {}
+.o-layout--align-baseline {
+    align-items: baseline;
+}
 
 /* Vertical content alignment modifiers. Only work if there is one than one flex item */
 
